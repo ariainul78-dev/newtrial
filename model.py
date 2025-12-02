@@ -1,4 +1,3 @@
-import pymysql
 from openai import OpenAI
 import os
 import json
@@ -6,7 +5,6 @@ from dotenv import load_dotenv
 from datetime import datetime
 from pymongo import MongoClient as PyMongoClient
 import streamlit as st
-
 
 # 환경 변수 로드
 load_dotenv()
